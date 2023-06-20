@@ -1,0 +1,126 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  background-color: black;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 450px;
+}
+
+button {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.quote-text {
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.quote-author {
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.icons-btn {
+  display: flex;
+  justify-content: start;
+}
+
+.buttons a {
+  margin-right: 5px;
+  padding: 10px 5px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 3px;
+  width: 40px;
+  height: 30px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+}
+
+
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 1s forwards;
+}
+
+.fade-in {
+  animation: fadeIn 1s forwards;
+}
